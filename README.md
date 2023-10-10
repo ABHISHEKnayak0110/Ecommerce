@@ -41,21 +41,21 @@ npm start
 
 The frontend will be accessible at ```http://localhost:3000/.```
 
-###Using the Application
+### Using the Application
 Once both the frontend and backend servers are up and running, you can start using the Ecommerce App. Here's a brief overview of how to use the application:
 
-####Adding Items to Cart:
+#### Adding Items to Cart:
 
 - Browse the product listings.
 - Select the quantity of items you want to purchase.
 - Click the "Add to Cart" button for each item.
 
-####Viewing Cart:
+#### Viewing Cart:
 
 - The Cart icon on the top right corner will display the number of items in your cart.
 - Click on the Cart icon to view the items added to your cart.
 
-####Checking Out:
+#### Checking Out:
 
 - In the Cart view, click the "Checkout" button.
 - The application will calculate the total price of your order.
@@ -65,5 +65,5 @@ That's it! You can now use the Ecommerce App to shop for items and manage your c
 
 If you have any questions or encounter issues, please feel free to reach out to the project owner or contributors for assistance.
 
-#Happy shopping! 🛒🛍️
+# Happy shopping! 🛒🛍️
 
