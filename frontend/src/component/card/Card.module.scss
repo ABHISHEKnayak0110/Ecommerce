@@ -1,0 +1,65 @@
+.cardWrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 3px 10px 0 #aaa;
+
+  .imgPoster{
+    object-fit: fill;
+    height: 250px;
+  }
+  .title{
+   font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 128, 0);
+  margin: 6px 0;
+  white-space: nowrap;
+  text-align: center;
+  overflow: hidden;
+ 
+  }
+  .infoDiv{
+    display: flex;
+    justify-content: space-between;
+    .styleDetails{
+        font-size: 14px;
+        font-weight: 500;
+        font-style: italic;
+        color: rgb(158, 62, 177);
+        white-space: nowrap;
+        overflow: hidden;
+        text-transform: capitalize;
+    
+    }
+  }
+  .incCounter{
+     display: flex;
+     align-items: center;
+     width: 100%;
+     justify-content: space-between;
+     margin-top: 3%;
+     span{
+      font-size: 14px;
+     }
+  }
+  .buttonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    button{
+      cursor: pointer;
+      background-color: rgb(9, 155, 222);
+      color: #ffffff;
+      border: none;
+      padding: 3% 4%;
+      border-radius: 4px;
+    
+    }
+    .disableOpacity {
+      background-color: #aaa !important;
+    }
+  }
+}

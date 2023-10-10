@@ -1,0 +1,26 @@
+.countWrapper{
+    width: 50%;
+    border : 1px solid black;
+    display: flex;
+    .sign{
+         width: 25%;
+        border-right: 1px solid black;
+         text-align: center;
+         font-weight: 800;
+         font-size: 16px;
+         cursor: pointer;
+    }
+    .value{
+        width: 50%;
+        text-align: center;
+        border-right: 1px solid black;
+    }
+    .plus{
+        width: 25%;
+         text-align: center;
+         font-weight: 800;
+         font-size: 16px;
+         cursor: pointer; 
+    }
+
+}

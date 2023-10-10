@@ -1,0 +1,101 @@
+.mainWrapper {
+    width: 100%;
+
+    .header {
+        height: 40px;
+    }
+
+    .cardHeader {
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 1% 8%;
+        span{
+            margin-right: 1%;
+            font-style: italic;
+        }
+        p {
+            cursor: pointer;
+            background-color: gold;
+            padding: 1%;
+            border-radius: 8px;
+
+        }
+    }
+
+    .itemContainer {
+        display: flex;
+
+        .cardDiv {
+            width: 15%;
+            margin: 3%;
+        }
+    }
+
+    .popUpCartItem {
+        width: 70%;
+        padding: 1% 2% 2%;
+        background-color: #FFFFFF;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+
+        .titleName {
+            display: flex;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .crossIcon {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 4%;
+            margin-top: 1%;
+
+            span {
+                cursor: pointer;
+                color: gray;
+            }
+        }
+    }
+
+    .buttonDivCheckout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            cursor: pointer;
+            background-color: rgb(9, 155, 222);
+            color: #ffffff;
+            border: none;
+            padding: 1% 3%;
+        }
+    }
+    .cartListDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  .itemList{
+      width: 80%;
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    //   flex-direction: column;
+      ol{
+        background-color: honeydew;
+        color: black;
+        padding: 2%;
+      }
+  }
+  .noItem{
+    color: red;
+  }
+  .detailsDiv{
+     padding: 3%;
+    background-color: honeydew;
+  }
+}
